@@ -15,31 +15,27 @@ Architect OS leverages a unique **Two-Shot Pipeline** framework to ensure both c
 
 ---
 
-## 🛠️ Key Features
+## 🛠️ Key Features (v3.0.0 Stable)
 
 ### 📂 Workspaces & Organizational Logic
 Group your architectural sessions into logical project boundaries. 
 - **Workspace Isolation**: Keep different projects separated and focused.
-- **Session migration**: Move sessions between workspaces as your project evolves.
-
-### ⭐ Gold Standard Starring
-Build your own library of "Gold Standard" designs. 
-- **One-click Starring**: Mark high-quality outputs for instant retrieval.
-- **Filtered History**: Quickly access your best work from the Unified History Console.
+- **Session Previews**: Metadata-rich session tracking with previews for the last 3 messages.
+- **Gold Standard Starring**: Mark high-quality designs for instant retrieval and filtering.
 
 ### 🕒 Unified History Console
 A redesigned history management pane with:
 - **Time-based Grouping**: Organize sessions by date and priority.
-- **Session Previews**: Hover or view snippets of the last 3 messages for instant UI insights without full navigation.
+- **Professional Filtering**: Quick access to starred sessions and specific workspaces.
 
 ### 🔗 Knowledge Hub (Vault Sync)
 Connect your local **Obsidian** vault directly via the File System Access API.
-- **Native Write-Verify**: Every export includes a verification loop to ensure the data was written correctly to your vault.
+- **Native Write-Verify**: Every export includes a verification loop to ensure data integrity.
 - **Local-First**: Your architectural data remains local and private.
 
-### 🧠 Dual Inference & Model Agnostic
-- **Cloud Providers**: Native support for Google Gemini (1.5/2.5) and OpenRouter (Claude, GPT).
-- **Local Inference**: Deep integration with **LM Studio** (Qwen 2.5) for local structural healing and privacy-conscious tasks.
+### 🧠 Dual Inference & Multi-Roadmap
+- **Hybrid Handoff**: Switching between Google Gemini, OpenRouter, and local LM Studio.
+- **Specialized Tracks**: Development is now managed across dedicated [Infrastructure](file:///c:/Users/tsrwe/OneDrive/Documents/Work%20Documents/AI%20Sandbox/Ai-sandbox/projects/agentflow/INFRASTRUCTURE_ROADMAP.md) and [Feature](file:///c:/Users/tsrwe/OneDrive/Documents/Work%20Documents/AI%20Sandbox/Ai-sandbox/projects/agentflow/FEATURE_ROADMAP.md) roadmaps.
 
 ---
 
@@ -47,42 +43,12 @@ Connect your local **Obsidian** vault directly via the File System Access API.
 
 To maintain architectural stability, Architect OS enforces a strict governance protocol:
 1.  **Archiving**: Automatic backup of core system prompts before any modification.
-2.  **Verification**: Prompt updates trigger a "Gold Standard" verification request to ensure no regression in output quality.
+2.  **Verification**: Prompt updates trigger a "Gold Standard" verification request.
 3.  **Regression Check**: Instant roll-back capability if Markdown depth or JSON structure is compromised.
 
 ---
 
-## 🧩 Extensibility & MCP
-Architect OS is fully compatible with the **Model Context Protocol (MCP)**, allowing agents to access local tools for:
-- **Browser Automation**: `chrome-devtools-mcp` for real-time verification and scraping.
-- **File System Access**: Direct manipulation of local documentation and source code.
-- **Custom Tooling**: Easily inject your own MCP servers to extend the OS capabilities.
-
----
-
-## 📊 Orchestration Schema (v3.0.0)
-The engine parses structured JSON configurations wrapped in `[ORCHESTRATION_CONFIG]` tags.
-
-```json
-{
-  "nodes": [
-    {
-      "id": "string",
-      "type": "agent | prompt | condition",
-      "data": { "name": "string", "role": "string", "systemPrompt": "string" }
-    }
-  ],
-  "metadata": {
-    "workspaceId": "string",
-    "isStarred": "boolean",
-    "version": 3.0
-  }
-}
-```
-
----
-
-**Status**: Alpha / Active Development  
+**Status**: Stable / v3.0.0 "Organizational Evolution"  
 **Agent**: TechDoc-Agent  
-**Revision**: 3.0.0  
-**Last Updated**: 2026-04-27
+**Revision**: 3.1.0  
+**Last Updated**: 2026-04-28
