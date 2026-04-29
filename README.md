@@ -15,7 +15,13 @@ Architect OS leverages a unique **Two-Shot Pipeline** framework to ensure both c
 
 ---
 
-## 🛠️ Key Features (v3.0.0 Stable)
+## 🛠️ Key Features (v3.2.0 Stable)
+
+### 🧪 Prompt Workbench (Iteration Engine)
+The core evolution hub for AI prompt engineering.
+- **Iteration Mode**: Evolve existing "Gold Standard" designs through recursive natural language refinement.
+- **Scratch Mode**: A sandboxed playground for rapid system/user prompt validation.
+- **Native Versioning**: Auto-incrementing version control (v1, v2, v3) for architectural artifacts.
 
 ### 📂 Workspaces & Organizational Logic
 Group your architectural sessions into logical project boundaries. 
@@ -23,19 +29,10 @@ Group your architectural sessions into logical project boundaries.
 - **Session Previews**: Metadata-rich session tracking with previews for the last 3 messages.
 - **Gold Standard Starring**: Mark high-quality designs for instant retrieval and filtering.
 
-### 🕒 Unified History Console
-A redesigned history management pane with:
-- **Time-based Grouping**: Organize sessions by date and priority.
-- **Professional Filtering**: Quick access to starred sessions and specific workspaces.
-
 ### 🔗 Knowledge Hub (Vault Sync)
 Connect your local **Obsidian** vault directly via the File System Access API.
 - **Native Write-Verify**: Every export includes a verification loop to ensure data integrity.
 - **Local-First**: Your architectural data remains local and private.
-
-### 🧠 Dual Inference & Multi-Roadmap
-- **Hybrid Handoff**: Switching between Google Gemini, OpenRouter, and local LM Studio.
-- **Specialized Tracks**: Development is now managed across dedicated [Infrastructure](file:///c:/Users/tsrwe/OneDrive/Documents/Work%20Documents/AI%20Sandbox/Ai-sandbox/projects/agentflow/INFRASTRUCTURE_ROADMAP.md) and [Feature](file:///c:/Users/tsrwe/OneDrive/Documents/Work%20Documents/AI%20Sandbox/Ai-sandbox/projects/agentflow/FEATURE_ROADMAP.md) roadmaps.
 
 ---
 
@@ -48,7 +45,7 @@ To maintain architectural stability, Architect OS enforces a strict governance p
 
 ---
 
-**Status**: Stable / v3.0.0 "Organizational Evolution"  
+**Status**: Stable / v3.2.0 "Workbench Evolution"  
 **Agent**: TechDoc-Agent  
-**Revision**: 3.1.0  
+**Revision**: 3.2.0  
 **Last Updated**: 2026-04-28
