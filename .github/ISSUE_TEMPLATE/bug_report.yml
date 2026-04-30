@@ -17,7 +17,7 @@ body:
       description: Clear summary of the problem
       placeholder: What is happening that shouldn't be?
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: preconditions
@@ -29,7 +29,7 @@ body:
         - Platforms used
         - Access levels and roles of each actor
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: steps-to-reproduce
@@ -42,7 +42,7 @@ body:
         3. Scroll down to '...'
         4. See error
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: expected-result
@@ -51,7 +51,7 @@ body:
       description: What should happen according to design or requirements
       placeholder: Describe the expected behavior
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: actual-result
@@ -60,7 +60,7 @@ body:
       description: What actually happens when following the steps
       placeholder: Describe what actually occurs
     validations:
-      required: true
+      required: false
 
   - type: dropdown
     id: impact
@@ -73,7 +73,7 @@ body:
         - "🟢 Medium - Minor issue, minimal impact on users"
         - "🔵 Low - Cosmetic, typo, nice-to-have fix"
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: environment
@@ -85,7 +85,7 @@ body:
         - URL or file path
         - User role/permissions
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: error-messages
@@ -103,7 +103,7 @@ body:
       description: How to verify the bug is fixed
       placeholder: What tests should pass after the fix?
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: potential-tasks
@@ -121,7 +121,7 @@ body:
       description: Criteria for closing the ticket
       placeholder: What must be complete to close this ticket?
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: attachments
