@@ -17,7 +17,7 @@ body:
       description: Short, descriptive summary
       placeholder: e.g., "XSS vulnerability in login form"
     validations:
-      required: true
+      required: false
 
   - type: input
     id: systems-impacted
@@ -26,7 +26,7 @@ body:
       description: Which systems are affected
       placeholder: e.g., "VISIBILITY/API/Frontend"
     validations:
-      required: true
+      required: false
 
   - type: dropdown
     id: type
@@ -39,7 +39,7 @@ body:
         - "Misconfiguration"
         - "Policy Violation"
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: description
@@ -48,7 +48,7 @@ body:
       description: Brief summary of the issue, affected asset, and how it was found
       placeholder: Describe the vulnerability and discovery method
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: remediation-plan
@@ -57,7 +57,7 @@ body:
       description: What needs to be done?
       placeholder: e.g., patch, config change, code fix
     validations:
-      required: true
+      required: false
 
   - type: dropdown
     id: severity
@@ -70,7 +70,7 @@ body:
         - "🟢 Medium - Action required within 7 days"
         - "🔵 Low - Action required within 30 days"
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: attachments
