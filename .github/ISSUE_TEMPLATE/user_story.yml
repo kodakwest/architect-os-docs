@@ -20,7 +20,7 @@ body:
         **I want** [What they want to do],
         **So that** [Why it's important to them]
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: background
@@ -29,7 +29,7 @@ body:
       description: Contextual information about the user and their needs
       placeholder: Describe the user persona and why they need this feature
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: details
@@ -38,7 +38,7 @@ body:
       description: Specific requirements, behaviors, or interactions
       placeholder: List specific requirements and expected behaviors
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: questions
@@ -56,7 +56,7 @@ body:
       description: How to verify the story is complete
       placeholder: List acceptance tests and verification steps
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: dev-tasks
@@ -86,7 +86,7 @@ body:
         - "No"
         - "Not Applicable"
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: snackbar-messaging
@@ -107,7 +107,7 @@ body:
         - "No"
         - "Not Applicable"
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: acceptance-criteria
@@ -128,4 +128,4 @@ body:
         ```
       render: gherkin
     validations:
-      required: true
+      required: false
